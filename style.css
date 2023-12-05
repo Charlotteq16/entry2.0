@@ -1,0 +1,411 @@
+body {
+    background-color: rgb(209, 174, 218);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.NEXT{
+    position: absolute;
+  right: 15%;
+  bottom: -105%;
+  font-size: larger;
+}
+
+.homepage{
+    position: absolute;
+  left: 15%;
+  bottom: -105%;
+  font-size: larger;
+}
+
+.tc-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 850px;
+    height: 600px;
+    position: relative;
+    margin-top: 4%;
+}
+
+.tc-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.from-home {
+    border: dashed black;
+    border-width: 10px;
+    position: absolute;
+}
+
+
+.easel{
+    border: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 90vh;
+} 
+
+.from-home:hover{
+    opacity: 0;
+}
+
+ 
+.bw-image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    position: absolute;
+    top: 125%;
+    z-index: 111;
+}
+
+
+
+#paintbucket1{
+    position: absolute;
+    right: 4%;
+    top:80%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket2{
+    position: absolute;
+    right: 4%;
+    top: 60%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket3{
+    position: absolute;
+    right: 4%;
+    top: 40%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket4{
+    position: absolute;
+    right: 4%;
+    top: 20%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket5{
+    position: absolute;
+    right: 4%;
+    top: 100%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket6{
+    position: absolute;
+    right: 4%;
+    top: 120%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket7{
+    position: absolute;
+    right: 4%;
+    top: 140%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket8{
+    position: absolute;
+    right: 4%;
+    top: 160%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+#paintbucket9{
+    position: absolute;
+    right: 4%;
+    top: 180%;
+    rotate: 50deg;
+    animation: paintbucket 3s infinite forwards;
+}
+
+@keyframes paintbucket {
+    0% {rotate: 50deg;}
+    50%{rotate: 0deg;}
+    100%{rotate: 50deg;}
+} 
+
+
+
+#brush1{
+    position: absolute;
+    left: 4%;
+    top:80%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush2{
+    position: absolute;
+    left: 4%;
+    top:60%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush3{
+    position: absolute;
+    left: 4%;
+    top:40%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush4{
+    position: absolute;
+    left: 4%;
+    top:20%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush5{
+    position: absolute;
+    left: 4%;
+    top:100%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush6{
+    position: absolute;
+    left: 4%;
+    top:120%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush7{
+    position: absolute;
+    left: 4%;
+    top:140%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush8{
+    position: absolute;
+    left: 4%;
+    top:160%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+#brush9{
+    position: absolute;
+    left: 4%;
+    top:180%;
+    rotate: 50deg;
+    animation: brush 3s infinite backwards;
+}
+
+
+@keyframes brush {
+    0% {rotate: 50deg;}
+    50%{rotate: 0deg;}
+    100%{rotate: 50deg;}
+} 
+
+
+    .number2{
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        font-size:xx-large;
+        background-color: whitesmoke;
+        border: solid rgb(39, 5, 65);
+        border-width: 5px;
+    }
+
+    
+    .info-word {
+        font-size: 500%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        top: 110%;
+        z-index: 111;
+    }
+
+    .INFO-CONTAINER{
+        font-size: 500%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        top: 120%;
+        width: 50%;
+        height:.5%;
+        background-color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0px;
+        border: solid;
+        border-width: 10px;
+        animation-name: AnimateBorder;
+      animation-duration: 5s;
+      animation-iteration-count: infinite; 
+      z-index: 112;
+    }
+    
+    @keyframes AnimateBorder{
+        50%{ border-color:rgb(209, 146, 239);}
+        100%{border-color:rgb(144, 17, 234);}
+      }
+    
+      .INFO-CONTAINER:hover{
+        transition: width 3s, height 3s, opacity 2s;
+        height: 58%;
+        font-size: 30px;
+        flex: 4;
+    }
+
+    .information{
+        width: 90%;
+        position:relative;
+        left: 5%;
+        top: 1%;
+      }
+    
+      .thoughts{
+        width: 95%;
+        position:relative;
+        left: 1%;
+        top:.5%;
+      }
+    
+      .thoughts-word{
+        display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 182%;
+        font-size: 500%;
+    }
+    
+
+   .thoughts-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    bottom: -80%;
+    width: 50%;
+    height: .5%; 
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0px;
+    border: solid;
+    border-width: 10px;
+    animation-name: AnimateBorder;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: top; 
+    z-index: 112;
+}
+
+.thoughts-container:hover {
+    transition: height 3s, opacity 2s;
+    height: 58%; 
+    font-size: 20px;
+}
+
+.next{
+    height: 100px;
+    width: 100px;
+    border: black solid 1px;
+    position: absolute;
+    bottom: -100%;
+    right: 10%;
+}
+
+@media screen and (max-width: 1400px){
+    .container{
+      width: 57%;
+      height: auto;
+    }
+
+    #text-container{
+      width: 57%;
+      height: auto;
+    }
+
+    .thoughts-container:hover{
+      font-size: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 1200px){
+
+    .thoughts-container:hover{
+      font-size: 14px;
+    }
+
+    #paintbucket2, #paintbucket3, #paintbucket4{
+        opacity: 0;
+    }
+
+    #brush2, #brush3, #brush4{
+        opacity: 0;
+    }
+
+  }
+
+
+
+  @media screen and (max-width :600px){
+    .container{
+      width: 50%;
+      height: auto;
+    }
+
+    #text-container{
+      width: 2%;
+      height: auto;
+    }
+
+    .INFO-CONTAINER:hover{
+      font-size: 30px;
+    }
+
+    .thoughts-container:hover{
+      font-size: 13px;
+    }
+
+    .info-word{
+      font-size: 400%;
+    }
+
+    .thoughts-word{
+      font-size: 400%;
+    }
+
+    #paintbucket9, #brush9{
+        opacity: 0;
+    }
+
+  }
+    
+    
+      
